@@ -17,7 +17,14 @@ struct ContentView: View {
                 VStack {
                     Text("Kulturkita")
                     Image("KulturkitaLogo")
-                    NavigationLink(destination: ARContentView()){
+//                    NavigationLink(destination: ARContentView()){
+//                        Text("Click Me")
+//                            .padding(24)
+//                            .background(Color.yellow)
+//                            .foregroundColor(.brown)
+//                            .cornerRadius(40)
+//                    }
+                    NavigationLink(destination: ARAlternatives()){
                         Text("Click Me")
                             .padding(24)
                             .background(Color.yellow)
